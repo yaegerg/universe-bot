@@ -55,17 +55,17 @@ Mix and match from the following activities. It doesn't matter if you do none of
 
 ### Add new bot messages
 1. **Find the existing message code**
-  - The basic room messages are stored in `data/rooms/RoomMessages.js`.
+  - The basic messages are stored in `scripts/messages.coffee`.
   - So far, our bot is best at watching for incoming chat messages, and uses regex to know when to respond.
   - Test out the current messages (and your regex knowledge) to see what our Bot can say:
-    - `/satellite/gim`
+    - `/universe/gim`
     - `/lunch/gim`
     - `/movie/i`
     - `/fruit/i`
   - It's easy to add simple, static messages here. This is the point of contact for more interactive messages, too.
 2. **Add a new message and trigger that will be unique to your bot.**
   - If we all write a message for the same trigger, and try that trigger in the chat room, every bot will respond.
-  - Change line 23, replacing `USERNAME` with your own username.
+  - Change line 16, replacing `USERNAME` with your own username.
   - Change the response to be whatever you'd like, maybe something like "I heard they're the best tennis player in the country."...or something more true, perhaps.
 3. **Test this out in the Slack channel.**
 
