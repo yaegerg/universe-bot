@@ -9,7 +9,7 @@
    - [Add new bot messages](#add-new-bot-messages)   
    - [Get your own bot instead of our default bot](#get-your-own-bot-instead-of-our-default-bot)   
    - [Deploy to Heroku](#deploy-to-heroku)   
-   - [Create your own Hubot from [hubot.github.com](https://hubot.github.com/docs/)](#create-your-own-hubot-from-hubotgithubcomhttpshubotgithubcomdocs)   
+   - [Create your own Hubot from scratch with hubot.github.com](#create-your-own-hubot-from-scratch-with-hubotgithubcom)   
 
 <!-- /MDTOC -->
 
@@ -102,5 +102,5 @@ Glitch is a fantastic way to test a deployment, but it only runs as long as you 
   - Type `HUBOT_SLACK_TOKEN` in the `KEY` field and your token into the `VALUE` field, then click `Add`
 6. Open Slack to test your deployment
 
-### Create your own Hubot from [hubot.github.com](https://hubot.github.com/docs/)
-The original repository for this project was generated as an npm app using the documentation from GitHub's open-source version of Hubot. To gain a fuller understanding of how Hubot works, consider starting from the beginning by following the [Getting Started with Hubot](https://hubot.github.com/docs/) walkthrough.
+### Create your own Hubot from scratch with hubot.github.com
+The original repository for this project was generated as an npm app using the documentation from GitHub's [open-source version of Hubot](https://hubot.github.com/docs/). To gain a fuller understanding of how Hubot works, consider starting from the beginning by following the [Getting Started with Hubot](https://hubot.github.com/docs/) walkthrough.
