@@ -36,8 +36,8 @@ Tool | Used for
 
 
 ## Part 1: Steps for Getting Started
-1. Fork the [githubteacher/universe-bot repository](https://github.com/githubteacher/universe-bot)
-2. In [Glitch](https://glitch.com), import your fork of the githubteacher/universe-bot repository
+1. Fork the [universeworkshops/universe-bot repository](https://github.com/universeworkshops/universe-bot)
+2. In [Glitch](https://glitch.com), import your fork of the universeworkshops/universe-bot repository
   - Click 'Edit Code'
   - Click the title of the app on the top left
   - Select 'Advanced Options'
