@@ -50,6 +50,13 @@ Tool | Used for
   ```
 4. Join [the shared slack team](https://join.slack.com/t/build-a-chatbot/shared_invite/MjE2MjY2Nzk0NjkxLTE1MDA3MzU1MzAtN2UyMmE5ZWFmNA). This link will ask for an email address and send you instructions for joining our team. Once you've joined, you can test this by saying something that the bot is already looking for, like "universe-bot universe".
 
+> :tada: Congratulations, you've just: 
+> - Created a fork
+> - Integrated with Glitch
+> - Used Glitch to deploy live code
+> - Integrated with Slack
+> - Connected an external integration with Slack
+
 ## Part 2: Pick Your Own Adventure
 Mix and match from the following activities. It doesn't matter if you do none of them or all of them, or what order you do them in. Each activity is independent of the others and is a way to fill out functionality of the bot for your specific use. If you don't have time to get to everything today, don't worry! You still have all of the instructions on your fork.
 
@@ -67,7 +74,16 @@ Mix and match from the following activities. It doesn't matter if you do none of
   - If we all write a message for the same trigger, and try that trigger in the chat room, every bot will respond.
   - Change line 16, replacing `USERNAME` with your own username.
   - Change the response to be whatever you'd like, maybe something like "I heard they're the best tennis player in the country."...or something more true, perhaps.
+  > _Note: Remember that bots are interacting with people. Bots should be programmed to adhere to the code of conduct in any given organization, and should be built empathetically._
 3. **Test this out in the Slack channel.**
+4. **Specialize the bot**.
+  - Whether you want to add more commands that are basic call and response or add more advanced functionality, code them in now.
+  - If you aren't sure how to complete the feature, add some comments in the code so you can come back to it later. 
+
+> :tada: Congratulations, you've just: 
+> - Edited JavaScript to customize bot responses
+> - Interacted with a bot through chat
+> - Set plans for a bot for future use
 
 ### Get your own bot instead of our default bot
 1. **Create your Hubot App**
@@ -86,6 +102,11 @@ Mix and match from the following activities. It doesn't matter if you do none of
 
 - _Note: You can also [create your own Slack team](https://slack.com/get-started#create) and follow the instructions above to have your bot listen to your own private team. A free Slack team can have up to five apps._
 
+> :tada: Congratulations, you've just: 
+> - Created a standalone bot, not dependant on any other repositories
+> - Created (or integrated with) another slack team
+> - Gotten so much closer to having a bot in your daily workflow - maybe it's done! 
+
 ### Sync from Glitch to GitHub 
 When you made changes in Glitch, they are automatically deployed. However, they aren't committed back to GitHub. 
 1. Click the title of the app, then select "Advanced Options" in the dropdown menu
@@ -98,6 +119,11 @@ When you made changes in Glitch, they are automatically deployed. However, they 
   - Merge the pull request and delete the `glitch` branch.
 
 > _Note: The information in the `.env` file is confidential, so it is not pushed back to GitHub. Do not commit tokens._
+
+> :tada: Congratulations, you've just: 
+> - Committed your new work in GitHub
+> - Set up your work to be shared with colleagues and other developers 
+> - Created a record of your workshop day to come back and improve on more later
 
 ### Deploy to Heroku
 Glitch is a fantastic way to test a deployment, but it only runs as long as you have it open in your browser. If you want to have your bot running all the time, you'll need to find another way to deploy. Heroku is a great option if you want to use a hosted service. To deploy on Heroku, follow these directions.
@@ -116,6 +142,10 @@ Glitch is a fantastic way to test a deployment, but it only runs as long as you 
   - Type `HUBOT_SLACK_TOKEN` in the `KEY` field and your token into the `VALUE` field, then click `Add`
 6. Open Slack to test your deployment
   - _Note: To test properly, make sure to close the Glitch browser._
+
+> :tada: Congratulations, you've just: 
+> - Integrated with Heroku
+> - Set up a bot that will always be listening - even when Glitch isn't open!
 
 ### Create your own Hubot from scratch with hubot.github.com
 The original repository for this project was generated as an npm app using the documentation from GitHub's [open-source version of Hubot](https://hubot.github.com/docs/). To gain a fuller understanding of how Hubot works, consider starting from the beginning by following the [Getting Started with Hubot](https://hubot.github.com/docs/) walkthrough.
