@@ -30,7 +30,7 @@ available, etc!
 
 Tool | Used for
 --- | ---
-[GitHub](https://github.com) (Please log in now) | To grab the code
+[GitHub](https://github.com) (Please log in now) | To store and version code
 [Glitch](https://glitch.com) (Please login with GitHub now) | A temporary server for your chat bot
 [Slack team](https://slack.com/create) (Please create a new Slack team) | To interact with your chatbot
 
