@@ -32,7 +32,7 @@ Tool | Used for
 --- | ---
 [GitHub](https://github.com) (Please log in now) | To store and version code
 [Glitch](https://glitch.com) (Please login with GitHub now) | A temporary server for your chat bot
-[Slack team](https://slack.com/create) (Please create a new Slack team) | To interact with your chatbot
+[Slack team](https://slack.com/get-started#create) (Please create a new Slack team) | To interact with your chatbot
 
 
 ## Part 1: Get the Code
@@ -50,7 +50,7 @@ Tool | Used for
 > - Integrated with Glitch
 
 ## Part 2: Get the Bot
-1. **Create your own Slack team](https://slack.com/get-started#create)** and follow the instructions above to have your bot listen to your own private team. A free Slack team can have up to five apps.
+1. **[Create your own Slack team](https://slack.com/get-started#create)** and follow the instructions above to have your bot listen to your own private team. A free Slack team can have up to five apps.
 1. **Create your Hubot App**
   - Log into your new Slack teamin your web browser using the credentials you created.
   - Find the Hubot App Dashboard by going to `/apps` from your Slack team and searching "Hubot".
