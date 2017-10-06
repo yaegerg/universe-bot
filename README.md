@@ -142,5 +142,5 @@ Glitch is a fantastic way to test a deployment, but it only runs as long as you 
 > - Integrated with Heroku
 > - Set up a bot that will always be listening - even when Glitch isn't open!
 
-### Create your own Hubot from scratch with hubot.github.com
+## What's next? Create your own Hubot from scratch with hubot.github.com
 The original repository for this project was generated as an npm app using the documentation from GitHub's [open-source version of Hubot](https://hubot.github.com/docs/). To gain a fuller understanding of how Hubot works, consider starting from the beginning by following the [Getting Started with Hubot](https://hubot.github.com/docs/) walkthrough.
