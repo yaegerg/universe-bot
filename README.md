@@ -52,12 +52,11 @@ Tool | Used for
 ## Part 2: Get the Bot
 1. **[Create your own Slack team](https://slack.com/get-started#create)** and follow the instructions above to have your bot listen to your own private team. A free Slack team can have up to five apps.
 1. **Create your Hubot App**
-  - Log into your new Slack teamin your web browser using the credentials you created.
-  - Find the Hubot App Dashboard by going to `/apps` from your Slack team and searching "Hubot".
+  - Log into your new Slack team in your web browser using the credentials you created
+  - Find the Hubot App Dashboard by going to `/apps` from your Slack team and searching "Hubot". (ex: `https://build-a-chatbot.slack.com/apps`)
   - Click "Add Configuration"
   - Give your new bot a name (like universe-bot), select `Add Hubot Integration`, and wait a couple of seconds for the page to refresh with the configuration of your new bot!
     - _Note: When you select `Add Hubot Integration`, Slack takes a few seconds to create the new app so be patient. If it seems to take too long, try going back to the [Hubot App Dashboard](https://build-a-chatbot.slack.com/apps/A0F7XDU93-hubot), and your Hubot may be there._
-    - You can also customize the image for the bot user
 2. **Reconfigure your Hubot Instance**
   - Once your app is created in Slack, copy the `HUBOT_SLACK_TOKEN=` line provided in the "Setup Instructions" section of its configuration
   - In your Glitch app, go to your `.env` file and replace the entire file with this line
