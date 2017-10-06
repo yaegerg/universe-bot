@@ -86,6 +86,17 @@ Mix and match from the following activities. It doesn't matter if you do none of
 
 - _Note: You can also [create your own Slack team](https://slack.com/get-started#create) and follow the instructions above to have your bot listen to your own private team. A free Slack team can have up to five apps._
 
+### Sync from Glitch to GitHub 
+When you made changes in Glitch, they are automatically deployed. However, they aren't committed back to GitHub. 
+1. Click the title of the app, then select "Advanced Options" in the dropdown menu
+1. Click "Export to GitHub"
+1. Make sure the repository names matches the repository that you'd like to export to, and click OK
+1. Update `master` with the new commit(s)
+  - Back in your `universe-bot` fork on GitHub, you will see there is now a branch called `glitch`
+  - For now, this could be OK because at least your code is saved
+  - To add these changes to the master branch, create a [pull request](https://help.github.com/articles/about-pull-requests/) with `base fork: USERNAME/universe-bot`, `base: master` and `compare: glitch`. It's a good idea to add more cnotext to the body and title of this pull request for future reference. 
+  - Merge the pull request and delete the `glitch` branch.
+
 ### Deploy to Heroku
 Glitch is a fantastic way to test a deployment, but it only runs as long as you have it open in your browser. If you want to have your bot running all the time, you'll need to find another way to deploy. Heroku is a great option if you want to use a hosted service. To deploy on Heroku, follow these directions.
 
