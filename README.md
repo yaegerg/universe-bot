@@ -97,6 +97,8 @@ When you made changes in Glitch, they are automatically deployed. However, they 
   - To add these changes to the master branch, create a [pull request](https://help.github.com/articles/about-pull-requests/) with `base fork: USERNAME/universe-bot`, `base: master` and `compare: glitch`. It's a good idea to add more cnotext to the body and title of this pull request for future reference. 
   - Merge the pull request and delete the `glitch` branch.
 
+> _Note: The information in the `.env` file is confidential, so it is not pushed back to GitHub. Do not commit tokens._
+
 ### Deploy to Heroku
 Glitch is a fantastic way to test a deployment, but it only runs as long as you have it open in your browser. If you want to have your bot running all the time, you'll need to find another way to deploy. Heroku is a great option if you want to use a hosted service. To deploy on Heroku, follow these directions.
 
@@ -113,6 +115,7 @@ Glitch is a fantastic way to test a deployment, but it only runs as long as you 
   - Select the `Reveal Config Vars` button
   - Type `HUBOT_SLACK_TOKEN` in the `KEY` field and your token into the `VALUE` field, then click `Add`
 6. Open Slack to test your deployment
+  - _Note: To test properly, make sure to close the Glitch browser._
 
 ### Create your own Hubot from scratch with hubot.github.com
 The original repository for this project was generated as an npm app using the documentation from GitHub's [open-source version of Hubot](https://hubot.github.com/docs/). To gain a fuller understanding of how Hubot works, consider starting from the beginning by following the [Getting Started with Hubot](https://hubot.github.com/docs/) walkthrough.
