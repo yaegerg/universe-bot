@@ -75,6 +75,7 @@ Mix and match from the following activities. It doesn't matter if you do none of
   - Once signed in, navigate to the [Hubot App Dashboard](https://build-a-chatbot.slack.com/apps/A0F7XDU93-hubot) and click `Add Configuration`
   - Give your new bot a unique name, select `Add Hubot Integration`, and wait a couple of seconds for the page to refresh with the configuration of your new bot!
     - _Note: When you select `Add Hubot Integration`, Slack takes a few seconds to create the new app so be patient. If it seems to take too long, try going back to the [Hubot App Dashboard](https://build-a-chatbot.slack.com/apps/A0F7XDU93-hubot), and your Hubot may be there._
+    - You can also customize the image for the bot user
 2. **Reconfigure your Hubot Instance**
   - Once your app is created in Slack, copy the `HUBOT_SLACK_TOKEN=` line provided in the "Setup Instructions" section of its configuration
   - In your Glitch app, go to your `.env` file and replace the `HUBOT_SLACK_TOKEN` line
