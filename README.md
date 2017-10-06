@@ -46,9 +46,9 @@ Tool | Used for
   - **Note: Any changes made in Glitch will not automatically be made in your fork. The steps are similar to importing, but instead select 'Export to GitHub'.**
 3. In Glitch, replace the contents of the `.env` file with:
   ```
-  HUBOT_SLACK_TOKEN=xoxb-215455607634-fipghNUy3cAnBnvYqRw5cRuF
+  HUBOT_SLACK_TOKEN=xoxb-215455607634-l137jUqYyuzu6CgqTWHfZwQW
   ```
-4. Join [the shared slack team](https://join.slack.com/t/build-a-chatbot/shared_invite/MjE2MjY2Nzk0NjkxLTE1MDA3MzU1MzAtN2UyMmE5ZWFmNA). This link will ask for an email address and send you instructions for joining our team. Once you've joined, you can test this by saying something that the bot is already looking for, like "universe".
+4. Join [the shared slack team](https://join.slack.com/t/build-a-chatbot/shared_invite/MjE2MjY2Nzk0NjkxLTE1MDA3MzU1MzAtN2UyMmE5ZWFmNA). This link will ask for an email address and send you instructions for joining our team. Once you've joined, you can test this by saying something that the bot is already looking for, like "universe-bot universe".
 
 ## Part 2: Pick Your Own Adventure
 Mix and match from the following activities. It doesn't matter if you do none of them or all of them, or what order you do them in. Each activity is independent of the others and is a way to fill out functionality of the bot for your specific use. If you don't have time to get to everything today, don't worry! You still have all of the instructions on your fork.
