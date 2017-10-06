@@ -32,10 +32,10 @@ Tool | Used for
 --- | ---
 [GitHub](https://github.com) (Please log in now) | To grab the code
 [Glitch](https://glitch.com) (Please login with GitHub now) | A temporary server for your chat bot
-[Slack team](https://join.slack.com/t/build-a-chatbot/shared_invite/MjE2MjY2Nzk0NjkxLTE1MDA3MzU1MzAtN2UyMmE5ZWFmNA) (Please join by following the instructions [here](https://join.slack.com/t/build-a-chatbot/shared_invite/MjE2MjY2Nzk0NjkxLTE1MDA3MzU1MzAtN2UyMmE5ZWFmNA)) | To interact with your chatbot
+[Slack team](https://slack.com/create) (Please create a new Slack team) | To interact with your chatbot
 
 
-## Part 1: Steps for Getting Started
+## Part 1: Get the Code
 1. Fork the [universeworkshops/universe-bot repository](https://github.com/universeworkshops/universe-bot)
 2. In [Glitch](https://glitch.com), import your fork of the universeworkshops/universe-bot repository
   - Click 'Edit Code'
@@ -44,20 +44,38 @@ Tool | Used for
   - By 'Import from GitHub', click 'Grant Access' and allow the app the proper permissions
   - Select 'Import from GitHub' and type the name of your fork, `USERNAME/universe-bot`
   - **Note: Any changes made in Glitch will not automatically be made in your fork. The steps are similar to importing, but instead select 'Export to GitHub'.**
-3. In Glitch, replace the contents of the `.env` file with:
-  ```
-  HUBOT_SLACK_TOKEN=xoxb-215455607634-l137jUqYyuzu6CgqTWHfZwQW
-  ```
-4. Join [the shared slack team](https://join.slack.com/t/build-a-chatbot/shared_invite/MjE2MjY2Nzk0NjkxLTE1MDA3MzU1MzAtN2UyMmE5ZWFmNA). This link will ask for an email address and send you instructions for joining our team. Once you've joined, you can test this by saying something that the bot is already looking for, like "universe-bot universe".
 
 > :tada: Congratulations, you've just: 
 > - Created a fork
 > - Integrated with Glitch
+
+## Part 2: Get the Bot
+1. **Create your own Slack team](https://slack.com/get-started#create)** and follow the instructions above to have your bot listen to your own private team. A free Slack team can have up to five apps.
+1. **Create your Hubot App**
+  - Log into your new Slack teamin your web browser using the credentials you created.
+  - Find the Hubot App Dashboard by going to `/apps` from your Slack team and searching "Hubot".
+  - Click "Add Configuration"
+  - Give your new bot a name (like universe-bot), select `Add Hubot Integration`, and wait a couple of seconds for the page to refresh with the configuration of your new bot!
+    - _Note: When you select `Add Hubot Integration`, Slack takes a few seconds to create the new app so be patient. If it seems to take too long, try going back to the [Hubot App Dashboard](https://build-a-chatbot.slack.com/apps/A0F7XDU93-hubot), and your Hubot may be there._
+    - You can also customize the image for the bot user
+2. **Reconfigure your Hubot Instance**
+  - Once your app is created in Slack, copy the `HUBOT_SLACK_TOKEN=` line provided in the "Setup Instructions" section of its configuration
+  - In your Glitch app, go to your `.env` file and replace the entire file with this line
+3. **Test your bot**
+  - Return to Slack (your new team) where you should find your bot's name under `APPS`
+  - Enter the `#general` channel, and invite your bot by `@mention`ing them.
+  - Use your bot's name and a message it will recognize, like `universe-bot universe` to test its response
+
+> :tada: Congratulations, you've just: 
 > - Used Glitch to deploy live code
 > - Integrated with Slack
 > - Connected an external integration with Slack
+> - Created a standalone bot, not dependant on any other repositories
+> - Created (or integrated with) another slack team
+> - Gotten so much closer to having a bot in your daily workflow - maybe it's done! 
 
-## Part 2: Pick Your Own Adventure
+
+## Part 3: Customize the Bot
 Mix and match from the following activities. It doesn't matter if you do none of them or all of them, or what order you do them in. Each activity is independent of the others and is a way to fill out functionality of the bot for your specific use. If you don't have time to get to everything today, don't worry! You still have all of the instructions on your fork.
 
 ### Add new bot messages
@@ -85,29 +103,7 @@ Mix and match from the following activities. It doesn't matter if you do none of
 > - Interacted with a bot through chat
 > - Set plans for a bot for future use
 
-### Get your own bot instead of our default bot
-1. **Create your Hubot App**
-  - Log into our [Slack team](https://build-a-chatbot.slack.com/) in your web browser using the credentials you created when you [got started](#part-1-steps-for-getting-started), if you haven't done so already.
-  - Once signed in, navigate to the [Hubot App Dashboard](https://build-a-chatbot.slack.com/apps/A0F7XDU93-hubot) and click `Add Configuration`
-  - Give your new bot a unique name, select `Add Hubot Integration`, and wait a couple of seconds for the page to refresh with the configuration of your new bot!
-    - _Note: When you select `Add Hubot Integration`, Slack takes a few seconds to create the new app so be patient. If it seems to take too long, try going back to the [Hubot App Dashboard](https://build-a-chatbot.slack.com/apps/A0F7XDU93-hubot), and your Hubot may be there._
-    - You can also customize the image for the bot user
-2. **Reconfigure your Hubot Instance**
-  - Once your app is created in Slack, copy the `HUBOT_SLACK_TOKEN=` line provided in the "Setup Instructions" section of its configuration
-  - In your Glitch app, go to your `.env` file and replace the `HUBOT_SLACK_TOKEN` line
-3. **Test your bot**
-  - Return to Slack where you should find your bot's name under `APPS`
-  - Enter the `#general` channel, and invite your bot by `@mention`ing them.
-  - Now your bot should only respond if you mention it by name rather than responding to `universe-bot`.
-
-- _Note: You can also [create your own Slack team](https://slack.com/get-started#create) and follow the instructions above to have your bot listen to your own private team. A free Slack team can have up to five apps._
-
-> :tada: Congratulations, you've just: 
-> - Created a standalone bot, not dependant on any other repositories
-> - Created (or integrated with) another slack team
-> - Gotten so much closer to having a bot in your daily workflow - maybe it's done! 
-
-### Sync from Glitch to GitHub 
+## Part 4: Sync from Glitch to GitHub 
 When you made changes in Glitch, they are automatically deployed. However, they aren't committed back to GitHub. 
 1. Click the title of the app, then select "Advanced Options" in the dropdown menu
 1. Click "Export to GitHub"
@@ -125,7 +121,7 @@ When you made changes in Glitch, they are automatically deployed. However, they 
 > - Set up your work to be shared with colleagues and other developers 
 > - Created a record of your workshop day to come back and improve on more later
 
-### Deploy to Heroku
+## Part 5: Deploy to Heroku
 Glitch is a fantastic way to test a deployment, but it only runs as long as you have it open in your browser. If you want to have your bot running all the time, you'll need to find another way to deploy. Heroku is a great option if you want to use a hosted service. To deploy on Heroku, follow these directions.
 
 1. If you don't already have a Heroku account, [register for one here](https://signup.heroku.com)
