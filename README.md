@@ -4,12 +4,11 @@
 
 - [Prerequisites](#prerequisites)   
    - [Tools](#tools)   
-- [Part 1: Steps for Getting Started](#part-1-steps-for-getting-started)   
-- [Part 2: Pick Your Own Adventure](#part-2-pick-your-own-adventure)   
-   - [Add new bot messages](#add-new-bot-messages)   
-   - [Get your own bot instead of our default bot](#get-your-own-bot-instead-of-our-default-bot)   
-   - [Deploy to Heroku](#deploy-to-heroku)   
-   - [Create your own Hubot from scratch with hubot.github.com](#create-your-own-hubot-from-scratch-with-hubotgithubcom)   
+- [Part 1: Get the Code](#part-1-get-the-code)   
+- [Part 2: Get the Bot](#part-2-get-the-bot)   
+- [Part 3: Customize the Bot](#part-3-customize-the-bot)
+- [Part 4: Sync from Glitch to GitHub](#part-4-sync-from-glitch-to-github)
+- [Part 5: Deploy to Heroku](#part-5-deploy-to-heroku)
 
 <!-- /MDTOC -->
 
